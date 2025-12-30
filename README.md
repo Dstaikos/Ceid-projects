@@ -2,8 +2,8 @@
 
 ![C](https://img.shields.io/badge/language-C-00599C)
 ![University of Patras](https://img.shields.io/badge/University-Patras-blue)
-![Exercises](https://img.shields.io/badge/exercises-21-green)
-![Lab Sessions](https://img.shields.io/badge/lab_sessions-3-orange)
+![Exercises](https://img.shields.io/badge/exercises-24-green)
+![Lab Sessions](https://img.shields.io/badge/lab_sessions-4-orange)
 
 A comprehensive collection of **C programming exercises** completed during the first semester of the Computer Engineering and Informatics Department (CEID) at the **University of Patras**. This repository demonstrates progressive learning through three distinct laboratory sessions, covering fundamental programming concepts from basic control structures to advanced data manipulation.
 
@@ -22,8 +22,9 @@ A comprehensive collection of **C programming exercises** completed during the f
 | Lab 1 | 6 + 4 functions | Basic I/O, Conditionals, Loops | Beginner |
 | Lab 2 | 7 exercises | Advanced Loops, Functions, Algorithms | Intermediate |
 | Lab 3 | 8 exercises | Arrays, Strings, Dynamic Memory | Advanced |
+| Lab 4 | 3 exercises | File I/O, Control Structures, Basic Algorithms | Intermediate |
 
-**Total:** 21 exercises across 3 progressive laboratory sessions
+**Total:** 24 exercises across 4 progressive laboratory sessions
 
 ---
 
@@ -68,6 +69,12 @@ Ceid-projects/
 │   ├── exercise8.c                     # Hotel reservation system
 │   ├── analysis.txt                    # Detailed Greek analysis
 │   └── ΆΣΚΗΣΗ 3.pdf                   # Assignment specifications
+│
+├── Lab-Exercises-4/                    # Consolidation & Additional Exercises
+│   ├── exercise1.c                     # Basic algorithm practice
+│   ├── exercise2.c                     # Control structures & I/O
+│   ├── exercise3.c                     # String & array exercises
+│   ├── analysis.txt.txt                # Detailed Greek analysis
 │
 └── README.md                           # This comprehensive guide
 ```
@@ -164,6 +171,19 @@ int find_positions(char* word, char* text, int* positions) {
     return matchCount;
 }
 ```
+
+---
+
+### 🔧 **Lab Session 4: Consolidation & Additional Exercises**
+
+| Exercise | Problem | Key Concepts | Difficulty |
+|----------|---------|--------------|------------|
+| **1** | Basic algorithm practice | Loops, Conditionals, Simple I/O | ⭐ |
+| **2** | Control structures & I/O | File I/O, Input validation | ⭐⭐ |
+| **3** | String and array tasks | String manipulation, Array processing | ⭐⭐ |
+
+#### Notes
+Lab 4 contains small consolidation exercises and analysis in `Lab-Exercises-4/analysis.txt.txt`.
 
 ---
 
